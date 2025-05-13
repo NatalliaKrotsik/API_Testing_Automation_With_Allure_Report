@@ -1,0 +1,6 @@
+{
+    "name": "Localhost",
+    "type": "manual",
+    "buildName": "Flask Mock API",
+    "reportName": "API Test Suite with Flask"
+}

@@ -1,0 +1,37 @@
+api_base_url: "https://reqres.in/"
+api_base_url2: "https://jsonplaceholder.typicode.com/"
+
+# === Environment Info ===
+environment: "Local"
+platform: "Windows 11"
+python_version: "3.11"
+tester: "Natallia"
+
+# === Base URLs for APIs ===
+api_base_urls:
+  reqres: "https://reqres.in/"
+  jsonplaceholder: "https://jsonplaceholder.typicode.com/"
+  local_flask: "http://127.0.0.1:5000/api"
+
+# === HTTP Configuration ===
+default_headers:
+  Content-Type: "application/json"
+  Accept: "application/json"
+
+timeout: 10  # seconds
+
+# === Reporting Metadata ===
+allure:
+  report_name: "API Automation by Natallia"
+  build_name: "Local Test Run"
+  executor_name: "Local Machine"
+  build_order: "1"
+
+# === User Data for Auth Tests ===
+test_users:
+  valid_user:
+    email: "eve.holt@reqres.in"
+    password: "pistol"
+  invalid_user:
+    email: "invalid@example.com"
+    password: ""

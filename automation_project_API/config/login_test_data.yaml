@@ -1,0 +1,16 @@
+login_tests:
+  - username: "tomsmith"
+    password: "SuperSecretPassword!"
+    expected_result: "success"
+
+  - username: "tomsmith"
+    password: "WrongPassword!"
+    expected_result: "fail"
+
+  - username: "wronguser"
+    password: "SuperSecretPassword!"
+    expected_result: "fail"
+
+  - username: ""
+    password: ""
+    expected_result: "fail"
