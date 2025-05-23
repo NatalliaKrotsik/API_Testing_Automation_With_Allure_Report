@@ -6,11 +6,11 @@ def user_credential():
     return {"username":"admin","password":"secret123"}
 
 # 2. Parametrize: Define test cases with (username, password, expected_result)
-@pytest.mark.parametrize("username, password, expected_result" [
+@pytest.mark.parametrize("username, password, expected_result", [
     ("admin", "secret123", True),
     ("guest", "nopass", False),
-    ("admin", "wrongpass", False)
-    ])
+    ("admin", "wrongpass", False),
+])
 
 # 3. Test function: Use the fixture and assert login success/failure
 
