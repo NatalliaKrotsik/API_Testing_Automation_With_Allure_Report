@@ -1,0 +1,4 @@
+[Fixture] Session started
+
+[Test_1] Check token exists
+[Fixture] Session ended

@@ -1,0 +1,40 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","1","test_1","tests","Mon May 26 15:21:41 CEST 2025","passed","Mon May 26 15:21:41 CEST 2025","","test_List_in_Fixture","",""
+"","1","test_two","tests","Mon May 26 15:21:42 CEST 2025","passed","Mon May 26 15:21:42 CEST 2025","","test_User_Factory_Fixture","",""
+"
+This test verifies the correctness of basic string transformation operations:
+- lowercasing,
+- trimming spaces,
+- replacing specific substrings.
+","0","Verify string transformation functions produce expected output","tests","Mon May 26 15:21:42 CEST 2025","passed","Mon May 26 15:21:42 CEST 2025","","test_a-data_transformation_function","",""
+"","0","test_user_access[AdminAccess]","tests","Mon May 26 15:21:42 CEST 2025","passed","Mon May 26 15:21:42 CEST 2025","","test_Validate_user_roles","",""
+"This test ensures that the database connection status is established correctly.","0","Test DB connection status is 'connected'","tests","Mon May 26 15:21:41 CEST 2025","passed","Mon May 26 15:21:41 CEST 2025","","test_Fixture_that_handles_a_temporary_file","",""
+"","1","test_user_is_qa_engineer","tests","Mon May 26 15:21:41 CEST 2025","passed","Mon May 26 15:21:41 CEST 2025","","test_Login_Session_Fixture","",""
+"","1","test_user_credential[guest-nopass-False]","tests","Mon May 26 15:21:41 CEST 2025","passed","Mon May 26 15:21:41 CEST 2025","","test_Login_Validation_with_Parametrized_Credentials","",""
+"","1","test_2","tests","Mon May 26 15:21:41 CEST 2025","passed","Mon May 26 15:21:41 CEST 2025","","test_List_in_Fixture","",""
+"","1","test_user_credential[admin-secret123-True]","tests","Mon May 26 15:21:41 CEST 2025","passed","Mon May 26 15:21:41 CEST 2025","","test_Login_Validation_with_Parametrized_Credentials","",""
+"","0","test_operations[Multiplication]","tests","Mon May 26 15:21:42 CEST 2025","passed","Mon May 26 15:21:42 CEST 2025","","test_operation_func","",""
+"
+This test verifies the correctness of basic string transformation operations:
+- lowercasing,
+- trimming spaces,
+- replacing specific substrings.
+","0","Verify string transformation functions produce expected output","tests","Mon May 26 15:21:42 CEST 2025","passed","Mon May 26 15:21:42 CEST 2025","","test_a-data_transformation_function","",""
+"","2","test_temp_file_content[Temporary test data-True]","tests","Mon May 26 15:21:41 CEST 2025","passed","Mon May 26 15:21:41 CEST 2025","","test_Temporary_File_Creation_+_Parametrize_Content_Check","",""
+"This test validates the name of the database connected during testing.","2","Test DB name is 'TestDB'","tests","Mon May 26 15:21:41 CEST 2025","passed","Mon May 26 15:21:41 CEST 2025","","test_Database_connection_Fixture","",""
+"","2","test_temp_file_content[-False]","tests","Mon May 26 15:21:41 CEST 2025","passed","Mon May 26 15:21:41 CEST 2025","","test_Temporary_File_Creation_+_Parametrize_Content_Check","",""
+"","0","test_user_access[GuestDenied]","tests","Mon May 26 15:21:42 CEST 2025","passed","Mon May 26 15:21:42 CEST 2025","","test_Validate_user_roles","",""
+"","0","test_token_exists","tests","Mon May 26 15:21:41 CEST 2025","passed","Mon May 26 15:21:41 CEST 2025","","test_Login_Session_Fixture","",""
+"","0","test_one","tests","Mon May 26 15:21:42 CEST 2025","passed","Mon May 26 15:21:42 CEST 2025","","test_User_Factory_Fixture","",""
+"","0","test_operations[Subtraction]","tests","Mon May 26 15:21:42 CEST 2025","passed","Mon May 26 15:21:42 CEST 2025","","test_operation_func","",""
+"","2","test_temp_file_content[Wrong content-False]","tests","Mon May 26 15:21:41 CEST 2025","passed","Mon May 26 15:21:41 CEST 2025","","test_Temporary_File_Creation_+_Parametrize_Content_Check","",""
+"","0","test_operations[Addition]","tests","Mon May 26 15:21:42 CEST 2025","passed","Mon May 26 15:21:42 CEST 2025","","test_operation_func","",""
+"","0","test_user_credential[admin-wrongpass-False]","tests","Mon May 26 15:21:41 CEST 2025","passed","Mon May 26 15:21:41 CEST 2025","","test_Login_Validation_with_Parametrized_Credentials","",""
+"","1","test_user_access[EditorAccess]","tests","Mon May 26 15:21:42 CEST 2025","passed","Mon May 26 15:21:42 CEST 2025","","test_Validate_user_roles","",""
+"
+This test verifies the correctness of basic string transformation operations:
+- lowercasing,
+- trimming spaces,
+- replacing specific substrings.
+","0","Verify string transformation functions produce expected output","tests","Mon May 26 15:21:42 CEST 2025","passed","Mon May 26 15:21:42 CEST 2025","","test_a-data_transformation_function","",""
+"This test ensures that the database connection status is established correctly.","0","Test DB connection status is 'connected'","tests","Mon May 26 15:21:41 CEST 2025","passed","Mon May 26 15:21:41 CEST 2025","","test_Database_connection_Fixture","",""

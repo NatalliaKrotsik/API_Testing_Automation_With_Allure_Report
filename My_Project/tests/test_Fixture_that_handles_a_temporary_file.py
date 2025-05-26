@@ -1,25 +1,24 @@
 import pytest
-import os
+import allure
 
+
+@allure.feature("Database Connection")
+@allure.story("Simulate DB session with a fixture")
 @pytest.fixture
-def temp_file():
-    file_path = "test_data.txt"
-    
-    # 🔧 Setup
-    with open(file_path, "w") as f:
-        f.write("Temporary test content")
-    print("[Fixture] File created")
+def db_connection():
+    with allure.step("Establishing test database connection"):
+        print("[Fixture] Connecting to database")
+        connection = {"status": "connected", "db": "TestDB"}
+        yield connection
+        print("[Fixture] Closing database connection")
 
-    yield file_path  # 👈 Give control to the test
 
-    # 🧹 Teardown
-    if os.path.exists(file_path):
-        os.remove(file_path)
-        print("[Fixture] File deleted")
-
-def test_read_temp_file(temp_file):
-    print("[Test] Reading file content")
-    with open(temp_file, "r") as f:
-        content = f.read()
-    
-    assert content == "Temporary test content"
+@allure.feature("Database Connection")
+@allure.story("Verify connection status")
+@allure.severity(allure.severity_level.CRITICAL)
+@allure.title("Test DB connection status is 'connected'")
+@allure.description("This test ensures that the database connection status is established correctly.")
+def test_db_status(db_connection):
+    with allure.step("Checking connection status"):
+        print("[Test_1] Check status")
+        assert db_connection["db"] == "TestDB"

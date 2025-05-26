@@ -1,0 +1,3 @@
+Setting up data
+Running test_one
+{'name': 'Trevor Lee', 'email': 'alisongalloway@example.org', 'password': ')aE@YBnU&0'}

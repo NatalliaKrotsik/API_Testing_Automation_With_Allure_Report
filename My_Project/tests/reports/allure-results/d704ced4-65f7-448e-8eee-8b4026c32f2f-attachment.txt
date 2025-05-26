@@ -1,0 +1,4 @@
+[Fixture] Session started
+
+[Test_2] Check user role
+[Fixture] Session ended

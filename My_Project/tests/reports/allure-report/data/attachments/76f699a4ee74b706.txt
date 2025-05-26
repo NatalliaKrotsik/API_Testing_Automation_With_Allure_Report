@@ -1,0 +1,3 @@
+[Fixture] Connecting to database
+[Test_1] Check status
+[Fixture] Closing database connection

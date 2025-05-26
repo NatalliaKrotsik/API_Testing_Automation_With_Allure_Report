@@ -1,0 +1,3 @@
+[Fixture] Providing empty list: []
+[]
+[Test 2] List after append: ['B']
