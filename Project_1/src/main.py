@@ -1,4 +1,4 @@
-import main
+import Project_1.src.main as main
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 
